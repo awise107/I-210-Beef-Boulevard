@@ -1,0 +1,169 @@
+/*
+    Document   : stylesheet.css
+    Created on : 4/06/2021
+    Author     : Alan Wise
+    Description: styles for the Beef Boulevard web site
+*/
+body {
+    text-align: center;  /* for IE */
+    background-color: #DFDFE1;
+}
+
+div#wrapper {
+    text-align:left; /* reset text alignment */
+    width:980px; /* or a percentage, or whatever */
+    margin:0 auto; /* for the rest */
+    margin-top: 40px;
+    border: 1px solid gray;
+    border-radius: 15px 0 15px 0;
+    -moz-border-radius: 15px 0 15px 0;
+    -webkit-border-radius: 15px 0px 15px 0px;
+}
+
+#curdate {
+    float:right;
+    margin-top: -20px;
+}
+
+#navbar {
+    background-color: #5a391e;
+    padding: 5px 10px;
+    border-radius: 15px 0 0 0;
+    -moz-border-radius: 15px 0 0 0;
+    -webkit-border-radius: 15px 0px 0 0;
+    clear: right;
+}
+
+#navbar a {
+    color: #aeaeae;
+    text-decoration: none;
+}
+
+#navbar a:hover,
+#navbar a:active,
+#navbar a:focus
+{
+    color: white;
+}
+#footer {
+    height: 40px;
+    font-size: 80%;
+    color: #5a391e;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #EEE;
+    border-radius: 0 0 15px 0;
+    -moz-border-radius: 0 0 15px 0;
+    -moz-border-radius: 0 0 15px 0;
+}
+
+#banner {
+    background-color: #5a391e;
+    padding: 5px;
+    width: 100%;
+}
+
+#banner img {
+    width: 200px;
+    border: none;
+}
+
+#maintitle {
+    color: white;
+    font-size: 28pt;
+    font-weight: bold;
+}
+
+#subtitle {
+    color: #aeaeae;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+
+/* styles of the shopping card */
+#shoppingcart {
+    width: 90px;
+    height: 70px;
+    text-align: center;
+    background-color: #FF9A35;
+    padding-top: 10px;
+}
+
+#shoppingcart a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#shoppingcart img {
+    width: 50px;
+    border: none;
+}
+
+#shoppingcart span {
+    display: block;
+}
+
+/* styles for the main content body */
+#mainbody {
+    padding: 10px;
+    background-color: white;
+}
+
+#mainbody a {
+    text-decoration: none;
+    color: #5a391e;
+}
+
+#mainbody a:hover,
+#mainbody a:active,
+#mainbody a:focus
+{
+    text-decoration: underline;
+    color: #FF9A35;
+}
+
+
+/* styles of the book list table */
+table.booklist {
+    width: 100%;
+    border-collapse: collapse;
+    font: 12px/18px Arial, Sans-serif;
+    margin: 5px 0;
+}
+
+table.booklist th {
+    background-color: #e4f1fe;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+table.booklist td {
+    border-bottom: 1px solid #ccc;
+    padding: 4px;
+    vertical-align: top;
+}
+
+table.booklist tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* styles of the book details table */
+table.bookdetails {
+    width: 100%;
+    border-collapse: collapse;
+    font: 12px/18px Arial, Sans-serif;
+    margin: 5px 0;
+}
+
+table.bookdetails td {
+    vertical-align: top;
+}
+
+table.bookdetails h4,
+table.bookdetails p {
+    margin: 0px;
+    height: 30px;
+}
