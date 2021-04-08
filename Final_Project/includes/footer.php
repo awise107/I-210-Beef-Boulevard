@@ -7,7 +7,10 @@
 <!-- page footer for copyright information -->
 <div id="footer">
     <hr>
-    <p>&copy; Beef Boulevard. All Rights Reserved.</p>
+    <p>&copy;1999-
+        <script>document.write(new Date().getFullYear())</script>
+        Beef Boulevard. All Rights Reserved.
+    </p>
 </div>
 </div>
 </body>

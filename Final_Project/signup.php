@@ -4,7 +4,7 @@
 -->
 
 <?php
-$title = "Account Signup";
+$title = "Beef Boulevard | Account Signup";
 require("includes/header.php");
 ?>
 
@@ -30,7 +30,8 @@ require("includes/header.php");
             <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
         </label>
 
-        <p>By creating an account you agree to our <a href="termsandprivacy.php" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        <p>By creating an account you agree to our <a href="termsandprivacy.php" style="color:dodgerblue">Terms &
+                Privacy</a>.</p>
 
         <div class="clearfix">
             <button type="button" class="cancelbtn">Cancel</button>
@@ -38,7 +39,6 @@ require("includes/header.php");
         </div>
     </div>
 </form>
-
 
 
 <br>

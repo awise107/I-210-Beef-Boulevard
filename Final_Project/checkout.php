@@ -4,7 +4,7 @@
 -->
 
 <?php
-$title = "Checkout";
+$title = "Beef Boulevard | Checkout";
 require("includes/header.php");
 ?>
 

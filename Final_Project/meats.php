@@ -4,7 +4,7 @@
 -->
 
 <?php
-$title = "Meat In Our Store";
+$title = "Beef Boulevard | Meat In Our Store";
 require("includes/header.php");
 ?>
 <!-- page specific content starts -->

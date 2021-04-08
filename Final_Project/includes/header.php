@@ -15,7 +15,8 @@
 <div id="wrapper">
     <!-- navigation bar -->
     <div id="navbar">
-        <a href="index.php">Home</a> || <a href="meats.php">List Meats</a> || <a href="aboutus.php">About Us</a> || <a href="contactus.php">Contact Us</a> || <a href="account.php">Account</a> || <a href="rewards.php">Rewards</a>
+        <a href="index.php">Home</a> || <a href="meats.php">List Meats</a> || <a href="aboutus.php">About Us</a> || <a
+                href="contactus.php">Contact Us</a> || <a href="account.php">Account</a> || <a href="rewards.php">Rewards</a>
     </div>
 
     <!-- Logo image and banner text -->
