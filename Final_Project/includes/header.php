@@ -15,14 +15,14 @@
 <div id="wrapper">
     <!-- navigation bar -->
     <div id="navbar">
-        <a href="index.php">Home</a> || <a href="meats.php">List Meats</a></a>
+        <a href="index.php">Home</a> || <a href="meats.php">List Meats</a> || <a href="aboutus.php">About Us</a> || <a href="contactus.php">Contact Us</a> || <a href="account.php">Account</a> || <a href="rewards.php">Rewards</a>
     </div>
 
     <!-- Logo image and banner text -->
     <table id="banner">
         <tr>
             <td>
-                <img src="www/img/beefboulevardlogo.jpg" alt="Beef Boulevard logo">
+                <img src="www/img/beefboulevardlogo.png" alt="Beef Boulevard logo">
             </td>
             <td>
                 <div id="maintitle">Beef Boulevard</div>
@@ -31,7 +31,7 @@
             <td>
                 <div id="shoppingcart">
                     <a href="showcart.php">
-                        <img src='www/img/shoppingcart_full.gif' alt='Shopping cart'
+                        <img src='www/img/shoppingcart_full.png' alt='Shopping cart'
                              style='width: 50px; border: none'><br>
                         3 item(s)
                     </a>
